@@ -74,8 +74,7 @@ public class WordFrequency {
         }
         for(int i=0; i < k; i++)
         {
-           System.out.println("Word: "+sortedArray[i].getWord()+" ,Frequency: "+sortedArray[i].getFrequency());
-           outputList.add(sortedArray[i].getWord());
+            outputList.add(sortedArray[i].getWord());
         }
         return outputList;
     }
